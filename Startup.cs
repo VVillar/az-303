@@ -32,7 +32,7 @@ namespace App_Az303
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hola desde Visual Studio, prueba AZ-303!");
                 });
             });
         }
